@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_layout_new"
+    tools:context=".SetupActivity_users">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/backgroundprof"
+        android:layout_marginTop="30dp"
+        android:id="@+id/setup_profile_image"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_below="@id/setup_profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_relative"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+
+        >
+        <AutoCompleteTextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/hint_name"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:id="@+id/setup_fullName"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="#fff"
+            />
+        <AutoCompleteTextView
+            android:textColorHint="#fff"
+            android:hint="@string/phone"
+            android:id="@+id/setup_userphone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:inputType="phone"
+            android:layout_marginBottom="10dp"
+
+            />
+        <Spinner
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:textSize="14sp"
+            android:drawablePadding="5dp"
+            android:id="@+id/setup_countryName"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+            android:layout_marginBottom="10dp"
+
+            />
+        <Spinner
+
+            android:layout_gravity="center"
+            android:id="@+id/type_login"
+            android:layout_width="255dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            app:titleTextColor="#fff"
+            android:outlineAmbientShadowColor="#fff"
+            android:outlineSpotShadowColor="#fff"
+            app:subtitleTextColor="#fff"
+            android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+            />
+        <Button
+            android:id="@+id/setup_information_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/background_layout_new_button"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/Register"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

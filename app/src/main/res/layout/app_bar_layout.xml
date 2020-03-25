@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:titleTextColor="#000"
+    android:outlineAmbientShadowColor="#000"
+    android:outlineSpotShadowColor="#000"
+    app:subtitleTextColor="#000"
+    android:background="#f4b94f"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Light"
+
+
+    >
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schedule_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/background_layout_new"
+    >
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/tool_schedule">
+
+    </include>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_time_des"
+        android:id="@+id/desc_schedule"
+        android:background="@drawable/background_layout_new_button"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"/>
+    <Button
+        android:background="@drawable/background_layout_new_button"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_schedule"
+        android:text="@string/Register"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_schedule_profile">
+
+    </ListView>
+
+
+</LinearLayout>

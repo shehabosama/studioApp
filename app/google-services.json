@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "89966144353",
+    "firebase_url": "https://studioapp-33160.firebaseio.com",
+    "project_id": "studioapp-33160",
+    "storage_bucket": "studioapp-33160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89966144353:android:dd585dccb299e072",
+        "android_client_info": {
+          "package_name": "com.example.bebo2.studio_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89966144353-dsarvfmqb5362f6ls24eckmtennu52a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bebo2.studio_app",
+            "certificate_hash": "aac9393e3d66c9b5358776500e647aac2936c88d"
+          }
+        },
+        {
+          "client_id": "89966144353-frhm37ltnq0b6n04ju78fdllo5qntd57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4gd99FFYeI3xbbZqr-NY2NAblin3Vb48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89966144353-frhm37ltnq0b6n04ju78fdllo5qntd57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

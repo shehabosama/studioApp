@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClickPostActivity"
+    android:background="#212121">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/app_bar_layout"
+        android:id="@+id/toolbaronclick">
+
+    </include>
+
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edite_post_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/settings"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/des_image" />
+
+    <TextView
+        android:id="@+id/post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/post_image"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-10dp"
+        android:padding="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/edite_post_button"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/edit_post"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/delete_post_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:text="@string/delete_post"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap" />
+</RelativeLayout>
